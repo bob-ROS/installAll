@@ -1,0 +1,12 @@
+#--sort-files #sort files by name?
+--A=3
+#X lines after
+--B=3
+#X lines before
+# Always color, even if piping to a another program
+--color
+--color-match=on_red
+--color-filename=on_green
+--color-lineno=green
+--nopager
+#--pager=less -r
