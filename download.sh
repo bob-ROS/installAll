@@ -19,7 +19,7 @@ sudo apt-get update
 sudo apt-get install cuda=9.0.176-1 -y
 sudo apt-get install libcudnn7-dev -y
 sudo apt-get install libnccl-dev -y
-sudo apt-get install nvidia-cuda-toolkit -y -allow-unauthenticated
+sudo apt-get install nvidia-cuda-toolkit -y --allow-unauthenticated
 
 echo "export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}" >> ~/.bashrc
